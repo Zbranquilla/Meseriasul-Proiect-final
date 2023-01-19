@@ -1,0 +1,59 @@
+﻿@page
+@model Meseriasul1.Pages.Meseriasii.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Meserias</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Nume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Nume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Prenume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Prenume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Meserie)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Meserie)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Experienta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Experienta)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Serviciu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Serviciu.ID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Programare)
+    </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Programare.ID)
+        </dd>
+
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Meserias.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

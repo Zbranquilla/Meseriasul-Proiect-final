@@ -1,0 +1,34 @@
+﻿@page
+@model Meseriasul1.Pages.Programari.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Creeaza</h1>
+
+<h4>Programare</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Programare.Dataprogramarii" class="control-label"></label>
+                <input asp-for="Programare.Dataprogramarii" class="form-control" />
+                <span asp-validation-for="Programare.Dataprogramarii" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Creeaza" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Inapoi la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,25 @@
+﻿@page
+@model Meseriasul1.Pages.Programari.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalii</h1>
+
+<div>
+    <h4>Programare</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Programare.Dataprogramarii)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Programare.Dataprogramarii)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Programare?.ID">Editeaza</a> |
+    <a asp-page="./Index">Inapoi la lista</a>
+</div>

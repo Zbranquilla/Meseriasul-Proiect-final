@@ -1,0 +1,63 @@
+﻿@page
+@model Meseriasul1.Pages.Meseriasii.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Meseriasi</h1>
+
+<p>
+    <a asp-page="Create">Adauga un meserias</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Meserias[0].Nume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Meserias[0].Prenume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Meserias[0].Meserie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Meserias[0].Experienta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Meserias[0].Serviciu.NumeServiciu)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Meserias) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Meserie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Experienta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serviciu.NumeServiciu)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Programare.Dataprogramarii)
+                </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Editeaza</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Detalii</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Sterge</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

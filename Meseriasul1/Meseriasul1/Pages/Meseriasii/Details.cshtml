@@ -1,0 +1,56 @@
+﻿@page
+@model Meseriasul1.Pages.Meseriasii.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalii</h1>
+
+<div>
+    <h4>Meserias</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Nume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Nume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Prenume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Prenume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Meserie)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Meserie)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Experienta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Experienta)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Serviciu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Serviciu.ID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Meserias.Programare)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Meserias.Programare.ID)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Meserias?.ID">Editeaza</a> |
+    <a asp-page="./Index">Inapoi la lista</a>
+</div>

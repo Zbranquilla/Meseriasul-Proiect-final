@@ -1,0 +1,44 @@
+﻿@page
+@model Meseriasul1.Pages.Servicii.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Servicii</h1>
+
+<p>
+    <a asp-page="Create">Alege un serviciu</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Serviciu[0].NumeServiciu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serviciu[0].Pret)
+            </th>
+            <th> @Html.DisplayNameFor(model => model.Serviciu[0].Programare.Dataprogramarii) </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Serviciu) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeServiciu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pret)
+            </td>
+                <td> @Html.DisplayFor(modelItem => item.Programare.Dataprogramarii) </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Editeaza</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Detalii</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Sterge</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

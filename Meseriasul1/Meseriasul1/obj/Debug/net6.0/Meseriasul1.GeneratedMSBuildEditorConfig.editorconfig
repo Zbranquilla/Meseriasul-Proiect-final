@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Meseriasul1
+build_property.RootNamespace = Meseriasul1
+build_property.ProjectDir = C:\Users\alexa\source\repos\Meseriasul1\Meseriasul1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alexa\source\repos\Meseriasul1\Meseriasul1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Meseriasii/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzZXJpYXNpaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Meseriasii/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzZXJpYXNpaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Meseriasii/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzZXJpYXNpaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Meseriasii/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzZXJpYXNpaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Meseriasii/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzZXJpYXNpaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Programari/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbWFyaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Programari/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbWFyaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Programari/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbWFyaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Programari/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbWFyaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Programari/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbWFyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Servicii/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaWlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Servicii/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaWlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Servicii/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaWlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Servicii/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaWlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Servicii/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaWlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/source/repos/Meseriasul1/Meseriasul1/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qvollq97ya

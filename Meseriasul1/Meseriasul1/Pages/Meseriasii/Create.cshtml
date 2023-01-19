@@ -1,0 +1,59 @@
+﻿@page
+@model Meseriasul1.Pages.Meseriasii.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Creeaza</h1>
+
+<h4>Meserias</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Meserias.Nume" class="control-label"></label>
+                <input asp-for="Meserias.Nume" class="form-control" />
+                <span asp-validation-for="Meserias.Nume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meserias.Prenume" class="control-label"></label>
+                <input asp-for="Meserias.Prenume" class="form-control" />
+                <span asp-validation-for="Meserias.Prenume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meserias.Meserie" class="control-label"></label>
+                <input asp-for="Meserias.Meserie" class="form-control" />
+                <span asp-validation-for="Meserias.Meserie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meserias.Experienta" class="control-label"></label>
+                <input asp-for="Meserias.Experienta" class="form-control" />
+                <span asp-validation-for="Meserias.Experienta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meserias.ServiciuID" class="control-label"></label>
+                <select asp-for="Meserias.ServiciuID" class ="form-control" asp-items="ViewBag.ServiciuID"></select>
+                <span asp-validation-for="Meserias.Serviciu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meserias.ProgramareID" class="control-label"></label>
+                <select asp-for="Meserias.ProgramareID" class="form-control" asp-items="ViewBag.ProgramareID"></select>
+                <span asp-validation-for="Meserias.Programare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Creeaza" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Inapoi la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
